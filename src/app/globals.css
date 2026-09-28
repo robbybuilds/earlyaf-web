@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #f7f6f3;
+  --surface: #ffffff;
+  --ink: #1a1917;
+  --ink-muted: #5c5955;
+  --ink-faint: #8a8680;
+  --rule: #e8e6e1;
+  --accent: #1a1917;
+  --accent-hover: #33302c;
+  --pale-green: #edf3ec;
+  --pale-green-text: #346538;
+  --pale-yellow: #fbf3db;
+  --pale-yellow-text: #7a5200;
+  --pale-blue: #e8f1f8;
+  --pale-blue-text: #1f5a7a;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-pale-green: var(--pale-green);
+  --color-pale-green-text: var(--pale-green-text);
+  --color-pale-yellow: var(--pale-yellow);
+  --color-pale-yellow-text: var(--pale-yellow-text);
+  --color-pale-blue: var(--pale-blue);
+  --color-pale-blue-text: var(--pale-blue-text);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-newsreader);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #e8e4d9;
+}
