@@ -1,0 +1,27 @@
+# Early AF
+
+> Market research and marketing guidance for solo app builders. Free daily idea plus Reply Radar (listen → score → queue for manual reply). Not a hub, agency tool, auto-reply product, or full marketing suite.
+
+Early AF (earlyaf.ai) helps solo app builders find realistic opportunities, understand who needs them, and show up in public conversations worth answering by hand.
+
+## What you get today
+
+- [Home](https://earlyaf.ai/): Wedge overview — free daily idea, Reply Radar, research → first experiment
+- [Blog](https://earlyaf.ai/blog): Long-form guides for solo builders (idea discovery, audience research)
+- [How to find app ideas people actually need](https://earlyaf.ai/blog/how-to-find-app-ideas-people-need): Method for spotting recurring problems before you code
+- [How to research your app audience before you build features](https://earlyaf.ai/blog/how-to-research-your-app-audience): Naming who has the problem from real conversations and reviews
+- [Reply Radar (GitHub)](https://github.com/robbybuilds/early-af-reply-radar): Chrome extension — listen on Reddit/X, score for ICP fit, queue locally; you reply yourself
+
+## Honest limits
+
+- No auto-listen-as-a-service hub today (north-star ambition only)
+- No auto-reply, DMs, or outreach blasts
+- No ads suite, rankings promises, or invented engagement volumes
+- Agencies are not the ICP we write for today
+
+## Optional
+
+- [Privacy](https://earlyaf.ai/privacy)
+- [Terms](https://earlyaf.ai/terms)
+- [llms-full.txt](https://earlyaf.ai/llms-full.txt): Longer product and content summary for agents
+- [sitemap.xml](https://earlyaf.ai/sitemap.xml)

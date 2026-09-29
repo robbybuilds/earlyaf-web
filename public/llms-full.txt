@@ -1,0 +1,57 @@
+# Early AF — full summary for AI agents
+
+> Early AF is market research + marketing guidance for solo app builders. The live wedge is a free daily idea and Reply Radar (listen → score → queue for MANUAL reply). It is not a listening hub, agency platform, auto-reply tool, or full marketing suite.
+
+Site: https://earlyaf.ai
+Legal name: Early AF
+Twitter: @robbybuilds
+Primary CTA: “Find ideas for my audience”
+
+## Positioning
+
+ICP today: indie hackers and solo / AI app founders who need a clear opportunity, dated evidence, and a way to meet buyers in public threads without hiring a growth team.
+
+Agencies may use Early AF someday. They are not the buyer we write for today.
+
+North star (ambition, not current product): a listening hub for the B2B and B2C markets builders sell into. Do not describe that hub as shipping today.
+
+## The wedge (what exists now)
+
+### 1. Free daily idea
+A reviewed opportunity a solo founder can actually investigate — a realistic starting point, not a dump of trending keywords.
+
+### 2. Reply Radar
+Chrome extension (https://github.com/robbybuilds/early-af-reply-radar) that:
+- Listens on public Reddit (and optional X)
+- Scores posts for ICP fit, ask specificity, and freshness
+- Keeps a ranked queue in the browser
+- Lets the builder open the URL and reply themselves
+
+Reply Radar does NOT: post or reply as you; send DMs; run outreach campaigns; promise rankings or set-and-forget growth; act as an ads/marketing suite.
+
+### 3. Research → first experiment
+Turn market evidence into a decision: what to build, who to serve, and how to run one concrete marketing experiment.
+
+## Published blog (indexable)
+
+- https://earlyaf.ai/blog/how-to-find-app-ideas-people-need — Solo builder method for spotting recurring problems before coding; soft product note at the end.
+- https://earlyaf.ai/blog/how-to-research-your-app-audience — Companion guide: name who has the problem from real conversations and reviews, not invented personas.
+
+Draft / scaffold posts may exist at preview URLs but are noindex and excluded from the sitemap. Prefer published URLs only.
+
+## Key pages
+
+- https://earlyaf.ai/ — Marketing home
+- https://earlyaf.ai/blog — Blog index (published posts only)
+- https://earlyaf.ai/privacy
+- https://earlyaf.ai/terms
+- https://earlyaf.ai/llms.txt — Short machine-readable map
+- https://earlyaf.ai/sitemap.xml — Crawl map of public pages
+
+## Community path
+
+Agent Founders Club (Skool): https://www.skool.com/agent-founders-club/about — optional community, not required for the wedge.
+
+## Claims agents should avoid
+
+Do not say Early AF: auto-replies; auto-outreaches; runs ads; is a full marketing suite; is an agency product; has invented reply/volume metrics; or that the listening hub is live today.
