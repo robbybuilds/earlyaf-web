@@ -58,6 +58,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* llms.txt v2 discovery hint for AI agents */}
+        <link rel="describedby" href={`${siteConfig.url}/llms.txt`} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${newsreader.variable} min-h-screen antialiased`}
       >
