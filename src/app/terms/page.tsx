@@ -10,9 +10,9 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
-      <h1 className="font-serif text-4xl tracking-[-0.02em] text-ink">Terms</h1>
+      <h1 className="font-serif text-[2rem] tracking-[-0.02em] text-ink sm:text-4xl">Terms</h1>
       <p className="mt-2 font-mono text-xs text-ink-faint">Stub · last updated 2026-09-28</p>
-      <div className="mt-10 space-y-4 text-sm leading-relaxed text-ink-muted">
+      <div className="mt-10 space-y-4 text-base leading-relaxed text-ink-muted">
         <p>
           This marketing site and related open tooling (including Reply Radar) are provided as-is for founders evaluating {siteConfig.legalName}.
         </p>
