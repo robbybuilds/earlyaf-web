@@ -37,7 +37,7 @@ export default function HomePage() {
           <p className="font-mono text-xs uppercase tracking-[0.14em] text-ink-faint">
             For solo app builders
           </p>
-          <h1 className="mt-5 max-w-3xl font-serif text-4xl leading-[1.12] tracking-[-0.02em] text-ink sm:text-5xl md:text-[3.25rem]">
+          <h1 className="mt-5 max-w-3xl font-serif text-[2rem] leading-[1.15] tracking-[-0.02em] text-ink sm:text-5xl md:text-[3.25rem]">
             Find ideas your audience already asks for. Reply where it counts.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
@@ -46,7 +46,7 @@ export default function HomePage() {
           <div className="mt-10 flex flex-wrap items-center gap-3">
             <a
               href={siteConfig.cta.href}
-              className="inline-flex rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent-hover active:scale-[0.98]"
+              className="inline-flex min-h-11 items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent-hover active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
             >
               {siteConfig.cta.label}
             </a>
@@ -54,7 +54,7 @@ export default function HomePage() {
               href={siteConfig.links.replyRadar}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex rounded-md border border-rule bg-surface px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:border-ink/20"
+              className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-surface px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
             >
               Get Reply Radar
             </a>
@@ -83,7 +83,7 @@ export default function HomePage() {
               >
                 <span className="font-mono text-xs text-ink-faint">{item.label}</span>
                 <h3 className="mt-3 text-lg font-medium text-ink">{item.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-ink-muted">{item.body}</p>
+                <p className="mt-3 text-base leading-relaxed text-ink-muted">{item.body}</p>
               </article>
             ))}
           </div>
@@ -104,7 +104,7 @@ export default function HomePage() {
               <p className="mt-5 text-base leading-relaxed text-ink-muted">
                 Reply Radar polls public Reddit (and optional X), scores each post for ICP fit, ask specificity, and freshness, then keeps a ranked queue in your browser. You open the URL and reply yourself.
               </p>
-              <ul className="mt-8 space-y-3 text-sm text-ink-muted">
+              <ul className="mt-8 space-y-3 text-base text-ink-muted">
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-ink" />
                   Listen on founder-heavy subs by default
@@ -122,7 +122,7 @@ export default function HomePage() {
                 href={siteConfig.links.replyRadar}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white hover:bg-accent-hover"
+                className="mt-8 inline-flex min-h-11 items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white hover:bg-accent-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
               >
                 Extension on GitHub
               </a>
@@ -131,7 +131,7 @@ export default function HomePage() {
               <p className="font-mono text-xs uppercase tracking-[0.14em] text-ink-faint">
                 Honest limits
               </p>
-              <div className="mt-5 space-y-4 text-sm leading-relaxed text-ink-muted">
+              <div className="mt-5 space-y-4 text-base leading-relaxed text-ink-muted">
                 <p>Does not post or reply as you.</p>
                 <p>Does not send DMs or run outreach campaigns.</p>
                 <p>Does not promise rankings, set-and-forget growth, or a full ads/marketing suite.</p>
@@ -158,7 +158,7 @@ export default function HomePage() {
               <span className="inline-flex rounded-full bg-pale-green px-2.5 py-0.5 font-mono text-[11px] uppercase tracking-wider text-pale-green-text">
                 Now
               </span>
-              <p className="mt-4 text-sm leading-relaxed text-ink-muted">
+              <p className="mt-4 text-base leading-relaxed text-ink-muted">
                 Indie hackers and AI app founders who need a clear opportunity, dated evidence, and a way to meet buyers in public threads without hiring a growth team.
               </p>
             </div>
@@ -166,7 +166,7 @@ export default function HomePage() {
               <span className="inline-flex rounded-full bg-pale-yellow px-2.5 py-0.5 font-mono text-[11px] uppercase tracking-wider text-pale-yellow-text">
                 Later
               </span>
-              <p className="mt-4 text-sm leading-relaxed text-ink-muted">
+              <p className="mt-4 text-base leading-relaxed text-ink-muted">
                 Agencies may use {siteConfig.name} someday. They are not the buyer we write for today.
               </p>
             </div>
@@ -192,7 +192,7 @@ export default function HomePage() {
                 href={siteConfig.links.replyRadar}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white hover:bg-accent-hover"
+                className="inline-flex min-h-11 items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white hover:bg-accent-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
               >
                 Install Reply Radar
               </a>
@@ -200,13 +200,13 @@ export default function HomePage() {
                 href={siteConfig.links.skool}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20"
+                className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
               >
                 Agent Founders Club
               </a>
               <Link
                 href="/blog"
-                className="inline-flex rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20"
+                className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
               >
                 Read the blog
               </Link>
