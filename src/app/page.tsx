@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { WaitlistForm } from "@/components/WaitlistForm";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -174,42 +175,47 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA / get started */}
+      {/* CTA / get started + waitlist */}
       <section id="get-started" className="scroll-mt-16 border-b border-rule bg-surface">
         <div className="mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-24">
-          <div className="max-w-2xl">
-            <p className="font-mono text-xs uppercase tracking-[0.14em] text-ink-faint">
-              Get started
-            </p>
-            <h2 className="mt-3 font-serif text-3xl tracking-[-0.02em] text-ink sm:text-4xl">
-              Find ideas for your audience
-            </h2>
-            <p className="mt-5 text-base leading-relaxed text-ink-muted">
-              Start with Reply Radar while the research product opens up. Join Agent Founders Club if you want the community path, or watch this site for the free daily idea feed.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <a
-                href={siteConfig.links.replyRadar}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-11 items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-white hover:bg-accent-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
-              >
-                Install Reply Radar
-              </a>
-              <a
-                href={siteConfig.links.skool}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
-              >
-                Agent Founders Club
-              </a>
-              <Link
-                href="/blog"
-                className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
-              >
-                Read the blog
-              </Link>
+          <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 lg:items-start">
+            <div className="max-w-2xl">
+              <p className="font-mono text-xs uppercase tracking-[0.14em] text-ink-faint">
+                Get started
+              </p>
+              <h2 className="mt-3 font-serif text-3xl tracking-[-0.02em] text-ink sm:text-4xl">
+                Find ideas for your audience
+              </h2>
+              <p className="mt-5 text-base leading-relaxed text-ink-muted">
+                Join the waitlist for a free daily idea. Meanwhile: Reply Radar for worth-reply threads, Agent Founders Club for community, or the blog for notes on research and distribution.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href={siteConfig.links.replyRadar}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                >
+                  Install Reply Radar
+                </a>
+                <a
+                  href={siteConfig.links.skool}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                >
+                  Agent Founders Club
+                </a>
+                <Link
+                  href="/blog"
+                  className="inline-flex min-h-11 items-center justify-center rounded-md border border-rule bg-canvas px-5 py-2.5 text-sm font-medium text-ink hover:border-ink/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                >
+                  Read the blog
+                </Link>
+              </div>
+            </div>
+            <div id="waitlist" className="scroll-mt-16">
+              <WaitlistForm source="earlyaf-web-home" />
             </div>
           </div>
         </div>
