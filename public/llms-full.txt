@@ -38,6 +38,7 @@ Turn market evidence into a decision: what to build, who to serve, and how to ru
 - https://earlyaf.ai/blog/how-to-research-your-app-audience — Companion guide: name who has the problem from real conversations and reviews, not invented personas.
 - https://earlyaf.ai/blog/when-a-customer-complaint-is-a-build-signal — When a complaint clears the bar for a small experiment; not a product from one rant.
 - https://earlyaf.ai/blog/when-a-reddit-or-x-reply-is-worth-your-time — Filter for which Reddit/X posts deserve a manual reply; scoring ≠ auto-engage.
+- https://earlyaf.ai/blog/how-to-run-a-first-marketing-experiment-before-you-build — Design one falsifiable marketing experiment before you build; not ads or a hire.
 
 Draft / scaffold posts may exist at preview URLs but are noindex and excluded from the sitemap. Prefer published URLs only.
 
