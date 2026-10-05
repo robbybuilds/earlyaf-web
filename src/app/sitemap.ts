@@ -1,14 +1,20 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, safeLastModified } from "@/lib/blog";
 import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const posts = getAllPosts().map((post) => ({
-    url: `${siteConfig.url}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  let posts: MetadataRoute.Sitemap = [];
+  try {
+    posts = getAllPosts().map((post) => ({
+      url: `${siteConfig.url}/blog/${post.slug}`,
+      lastModified: safeLastModified(post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }));
+  } catch {
+    // Prefer a partial sitemap over HTTP 500 for crawlers.
+    posts = [];
+  }
 
   return [
     {
