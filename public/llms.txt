@@ -7,12 +7,13 @@ Early AF (earlyaf.ai) helps solo app builders find realistic opportunities, unde
 ## What you get today
 
 - [Home](https://earlyaf.ai/): Wedge overview — free daily idea, Reply Radar, research → first experiment
-- [Blog](https://earlyaf.ai/blog): Long-form guides for solo builders (idea discovery, audience research, build signals, worth-reply, first experiment)
+- [Blog](https://earlyaf.ai/blog): Long-form guides for solo builders (idea discovery, audience research, build signals, worth-reply, first experiment, getting customers without a hire)
 - [How to find app ideas people actually need](https://earlyaf.ai/blog/how-to-find-app-ideas-people-need): Method for spotting recurring problems before you code
 - [How to research your app audience before you build features](https://earlyaf.ai/blog/how-to-research-your-app-audience): Naming who has the problem from real conversations and reviews
 - [When a customer complaint is a build signal](https://earlyaf.ai/blog/when-a-customer-complaint-is-a-build-signal): When a complaint earns a small experiment — not a product from one rant
 - [When a Reddit or X reply is worth your time](https://earlyaf.ai/blog/when-a-reddit-or-x-reply-is-worth-your-time): Solo-builder filter for which public posts deserve a manual reply
 - [How to run a first marketing experiment before you build](https://earlyaf.ai/blog/how-to-run-a-first-marketing-experiment-before-you-build): Turn research into one small falsifiable marketing test before you code
+- [Get customers without a marketing hire](https://earlyaf.ai/blog/get-customers-without-a-marketing-hire): Honest small channels and manual replies — no agency or hub claims
 - [Reply Radar (GitHub)](https://github.com/robbybuilds/early-af-reply-radar): Chrome extension — listen on Reddit/X, score for ICP fit, queue locally; you reply yourself
 
 ## Honest limits
