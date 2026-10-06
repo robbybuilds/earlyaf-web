@@ -9,7 +9,7 @@ export const siteConfig = {
   twitter: "@robbybuilds",
   cta: {
     label: "Find ideas for my audience",
-    href: "#get-started",
+    href: "/#waitlist",
   },
   links: {
     replyRadar: "https://github.com/robbybuilds/early-af-reply-radar",
