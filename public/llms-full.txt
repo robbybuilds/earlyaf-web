@@ -40,6 +40,7 @@ Turn market evidence into a decision: what to build, who to serve, and how to ru
 - https://earlyaf.ai/blog/when-a-reddit-or-x-reply-is-worth-your-time — Filter for which Reddit/X posts deserve a manual reply; scoring ≠ auto-engage.
 - https://earlyaf.ai/blog/how-to-run-a-first-marketing-experiment-before-you-build — Design one falsifiable marketing experiment before you build; not ads or a hire.
 - https://earlyaf.ai/blog/get-customers-without-a-marketing-hire — Honest small channels for first customers without a marketing hire; manual replies, no agency/hub claims.
+- https://earlyaf.ai/blog/how-to-pick-one-app-idea-from-a-shortlist — Choose one app idea from a shortlist using evidence: who complains, how often, paid workarounds, and whether you can reach them.
 
 Draft / scaffold posts may exist at preview URLs but are noindex and excluded from the sitemap. Prefer published URLs only.
 
